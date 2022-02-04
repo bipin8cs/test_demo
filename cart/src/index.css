@@ -14,10 +14,10 @@ body {
 .card-item .right-block{
   padding: 0 20px;
 }
-.card-item-actions{
-  margin-top: 20px;
+.cart-item-actions{
+  margin-top:20px;
 }
-.action-icon{
+.action-icons{
   height: 25px;
   width: 25px;
   margin-right: 10px;
@@ -25,5 +25,11 @@ body {
 .action-icon:hover{
   cursor: pointer;
 }
-
+ .right-block{
+  margin-left: 20px;
+} 
+.cart{
+  display: flex;
+  flex-direction: column;
+}
 
